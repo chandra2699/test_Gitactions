@@ -2,7 +2,7 @@ name: Run main.py daily
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Runs every day at 06:00 UTC
+    - cron: '30 10 * * *' # Runs every day at 06:00 UTC
   workflow_dispatch: # Allows manual trigger
 
 permissions:
